@@ -1,3 +1,8 @@
+h1 {
+    color: blue;
+}
+
+
 #about-me {
   width: 100%;
   background-color: rgb(82, 82, 82);
@@ -7,19 +12,49 @@
   border: 1px solid white;
   border-radius: 10px;
 }
+.navbar {
+    background-color:#0E6655;
+}
 .navbar-brand {
   padding-left: 10px;
 }
+.navbar-item {
+    color: white;
+    font-size: 1.5rem;
+}
+.navbar-link {
+    color: white;
+}
+.navbar-dropdown {
+    color: white;
+}
+.hero-body .headshot {
+    display: inline-block;
+    background-color: #752F2F;
+}
 #name {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   padding-left: 5px;
+  color: #DC7A4A ;
+  text-shadow: -1px -1px 0px white;
 }
 #about-me-title {
-  color: white;
+  color: blue;
+  margin-bottom: 30px;
 }
 #about-me-info {
-  color: white;
+  color: #752F2F;
 }
 #projects {
   background-color: grey;
+}
+img {
+    /* height: 500px; */
+    /* width: auto; */
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: auto;
+}
+.card {
+    margin: auto;
 }
