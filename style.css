@@ -11,14 +11,14 @@
   border-radius: 10px;
 }
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   background-color: #1C615C;
 }
 .navbar-brand {
   padding-left: 10px;
 }
-.navbar-item {
+.navbar-link {
   color: white;
   font-size: 1.5rem;
 }
@@ -47,6 +47,7 @@
   font-family: "Lato", sans-serif;
   color: white;
   margin-bottom: 30px;
+  text-shadow: 1px 1px 4px black;
 }
 #about-me-info {
   font-family: "Lato", sans-serif;
@@ -61,11 +62,35 @@ img {
   border: 2px solid white;
   border-radius: 10px;
   margin: auto;
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 350px;
+  max-width: 350px;
 }
 .card {
-  background-color: rgb(57, 59, 65);
+  background-color: rgb(57, 59, 65, 0.6);
   margin: auto;
-  opacity: 0.8;
+  border-radius: 15px;
+}
+/* 
+@media only screen and (max-width: 992px) {
+    .navbar {
+        width: 100%;
+    }
+   
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+} */
+@media only screen and (max-width: 576px) {
+    .navbar {
+        width: 100%;
+    }
+    #name {
+        max-width: 90%;
+        font-size: 2.5rem;
+    }
 }
