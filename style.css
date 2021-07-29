@@ -4,7 +4,6 @@
   background-color: #224561;
 }
 .navbar-brand {
-  /* padding-left: 10px; */
   background-color: #224561;
 }
 .navbar-link {
@@ -36,6 +35,39 @@
     color: #3D7BAD;
     vertical-align: top;
 }
+
+#about-me-card {
+    background-color: rgb(57, 59, 65, 0.6);
+    margin: auto;
+    border-radius: 15px;
+  }
+#skillet-card {
+    background-color: #393C40;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+  }
+#code-quiz-card {
+    background-color: #393C40;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+  }
+#weather-card {
+    background-color: #393C40;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+  }
 #mattix {
     border: 2px solid white;
     border-radius: 10px;
@@ -75,13 +107,13 @@
 #projects {
   background-color: #7398BF;
   color: #263340;
+  margin-top: -20px;
+}
+#projects-title {
+    text-align: center;
 }
 
-.card {
-  background-color: rgb(57, 59, 65, 0.6);
-  margin: auto;
-  border-radius: 15px;
-}
+
 
 @media only screen and (max-width: 576px) {
     .navbar {
