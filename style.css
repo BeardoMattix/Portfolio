@@ -3,10 +3,10 @@ main {
 }
 .navbar {
   width: 100%;
-  background-color: #224561;
+  background-color: #193347;
 }
 .navbar-brand {
-  background-color: #224561;
+  background-color: #193347;
 }
 .navbar-link {
   color: white;
@@ -21,7 +21,7 @@ main {
     text-shadow: 1px 0px 1px white;
 }
 .navbar-dropdown {
-  background-color: #224561;
+  background-color: #193347;
   color: #95C1E6;
 }
 
@@ -37,6 +37,13 @@ main {
     padding-bottom: 15px;
     color: #3D7BAD;
     vertical-align: top;
+}
+a {
+    color: #95C1E6;
+    font-weight: 400;
+}
+.fab {
+    color: white;
 }
 #burger {
     color: white;
@@ -86,24 +93,27 @@ main {
   text-shadow: 1px 1px 4px black;
 }
 #projects {
-  background-color: #7398BF;
+  background-color: #216E67;
   color: #263340;
   padding-top: 30px;
 }
 #projects-title {
     text-align: center;
-    font-size: 3.5rem;
-    text-shadow: 1px 1px 4px black;
+    font-family: "Merriweather", serif;
+    font-size: 3rem;
+    color: #95C1E6;
+    text-shadow: 1px 0px 1px white;
     padding: 15px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: #224561c2;
+    background-color: #193347;
+    box-shadow: 3px 3px 4px #224561c2;
 }
 #resume {
-    background-color: #32658F;
+    background-color: #216E67;
 }
 #skillet-card {
-    background-color: #393C40;
+    background-color: #193347;
     margin: auto;
     border-radius: 10px;
     color: white;
@@ -113,7 +123,7 @@ main {
     box-shadow: 3px 3px 4px #393C40;
   }
 #code-quiz-card {
-    background-color: #393C40;
+    background-color: #193347;
     margin: auto;
     border-radius: 10px;
     color: white;
@@ -123,7 +133,7 @@ main {
     box-shadow: 3px 3px 4px #393C40;
   }
 #weather-card {
-    background-color: #393C40;
+    background-color: #193347;
     margin: auto;
     border-radius: 10px;
     color: white;
