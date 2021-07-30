@@ -49,7 +49,7 @@ a {
 .fab {
   color: white;
 }
-.questions-submit {
+#questions-submit {
     float: right;
     margin: 10px;
     padding: 10px;
@@ -58,6 +58,9 @@ a {
     border-radius: 10px;
     color: white;
     font-size: 1.5rem;
+}
+#questions-submit:hover {
+  background-color: #50677A;
 }
 #burger {
   color: white;
@@ -187,7 +190,6 @@ a {
     background-color: #193347;
     border: 2px double #57b1fa;
     border-radius: 10px;
-    padding-top: -10px;
 }
 #contact-style {
     color: white;
