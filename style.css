@@ -1,5 +1,5 @@
 main {
-    margin-top: 0;
+  margin-top: 0;
 }
 .navbar {
   width: 100%;
@@ -13,16 +13,16 @@ main {
   font-size: 2rem;
 }
 .navbar-link {
-  color: #95C1E6;
+  color: #95c1e6;
 }
 .navbar-item {
-    color: white;
-    font-size: 1.5rem;
-    text-shadow: 1px 0px 1px white;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 1px 0px 1px white;
 }
 .navbar-dropdown {
   background-color: #193347;
-  color: #95C1E6;
+  color: #95c1e6;
 }
 
 .hero {
@@ -33,43 +33,43 @@ main {
   background-blend-mode: soft-light;
 }
 .fas {
-    padding-right: 20px;
-    padding-bottom: 15px;
-    color: #3D7BAD;
-    vertical-align: top;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  color: #3d7bad;
+  vertical-align: top;
 }
 a {
-    color: #95C1E6;
-    font-weight: 400;
+  color: #95c1e6;
+  font-weight: 400;
 }
 .fab {
-    color: white;
+  color: white;
 }
 #burger {
-    color: white;
-    font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 #name {
-    font-size: 3.5rem;
-    font-family: "Merriweather", serif;
-    margin-top: 10px;
-    color: #95C1E6;
-    text-shadow: 1px 0px 1px white;
-  }
+  font-size: 3.5rem;
+  font-family: "Merriweather", serif;
+  margin-top: 10px;
+  color: #95c1e6;
+  text-shadow: 1px 0px 1px white;
+}
 
 #about-me-card {
-    background-color: rgb(57, 59, 65, 0.6);
-    margin: auto;
-    border-radius: 15px;
-  }
+  background-color: rgb(57, 59, 65, 0.6);
+  margin: auto;
+  border-radius: 15px;
+}
 
 #mattix {
-    border: 2px solid white;
-    border-radius: 10px;
-    margin: auto;
-    max-height: 500px;
-    max-width: 300px;
-  }
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: auto;
+  max-height: 500px;
+  max-width: 300px;
+}
 
 #about-me {
   width: 100%;
@@ -93,82 +93,87 @@ a {
   text-shadow: 1px 1px 4px black;
 }
 #projects {
-  background-color: #216E67;
+  background-color: #246878;
+  /* background-color: #216e67; */
   color: #263340;
   padding-top: 30px;
 }
 #projects-title {
-    text-align: center;
-    font-family: "Merriweather", serif;
-    font-size: 3rem;
-    color: #95C1E6;
-    text-shadow: 1px 0px 1px white;
-    padding: 15px;
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: #193347;
-    box-shadow: 3px 3px 4px #224561c2;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  color: #95c1e6;
+  text-shadow: 1px 0px 1px white;
+  padding: 15px;
+  border: 2px double #57B1FA;
+  border-radius: 10px;
+  background-color: #193347;
+  box-shadow: 3px 3px 4px #224561c2;
 }
 #resume {
-    background-color: #216E67;
+  background-color: #246878;
 }
 #skillet-card {
-    background-color: #193347;
-    margin: auto;
-    border-radius: 10px;
-    color: white;
-    font-family: "Lato", sans-serif;
-    border: 1px solid white;
-    padding: 5px;
-    box-shadow: 3px 3px 4px #393C40;
-  }
+  background-color: #193347;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  border: 2px double #57B1FA;
+  padding: 5px;
+  box-shadow: 3px 3px 4px #393c40;
+}
 #code-quiz-card {
-    background-color: #193347;
-    margin: auto;
-    border-radius: 10px;
-    color: white;
-    font-family: "Lato", sans-serif;
-    border: 1px solid white;
-    padding: 5px;
-    box-shadow: 3px 3px 4px #393C40;
-  }
+  background-color: #193347;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  border: 2px double #57B1FA;
+  padding: 5px;
+  box-shadow: 3px 3px 4px #393c40;
+}
 #weather-card {
-    background-color: #193347;
-    margin: auto;
-    border-radius: 10px;
-    color: white;
-    font-family: "Lato", sans-serif;
-    border: 1px solid white;
-    padding: 5px;
-    box-shadow: 3px 3px 4px #393C40;
-  }
-
-
+  background-color: #193347;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  border: 2px double #57B1FA;
+  padding: 5px;
+  box-shadow: 3px 3px 4px #393c40;
+}
 
 @media only screen and (max-width: 576px) {
-    .navbar {
-        width: 100%;
-    }
-    #name {
-        max-width: 90%;
-        font-size: 2.5rem;
-    }
-    .fas {
-        display: none;
-    }
-    body {
-        margin-top: 30px;
-    }
+  .navbar {
+    width: 100%;
+  }
+  #name {
+    max-width: 90%;
+    font-size: 2.5rem;
+  }
+  .fas {
+    display: none;
+  }
+  body {
+    margin-top: 30px;
+  }
 }
 @media only screen and (max-width: 768px) {
-    .navbar {
-        width: 100%;
-    }
-    #name {
-        max-width: 90%;
-        font-size: 2.5rem;
-    }
-    body {
-        margin-top: 30px;
-    }
+  .navbar {
+    width: 100%;
+  }
+  #name {
+    max-width: 90%;
+    font-size: 2.5rem;
+  }
+  body {
+    margin-top: 30px;
+  }
 }
+
+/* Colors
+#224561 - Dark blue
+#7192AD - light blue/gray
+
+*/
