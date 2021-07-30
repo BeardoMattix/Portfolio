@@ -180,10 +180,15 @@ a {
 }
 #contact-me-card {
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     background-color: #193347;
     border: 2px double #57b1fa;
     border-radius: 10px;
+    padding-top: -10px;
+}
+#contact-style {
+    padding-top: 0;
+    margin-top: 0;
 }
 #resume-card {
     font-family: "Lato", sans-serif;
@@ -192,10 +197,15 @@ a {
     border: 2px double #57b1fa;
     border-radius: 10px;
     padding: 10px;
+    
 }
 #resume-image {
     border: 2px double #57b1fa;
     border-radius: 10px;
+}
+#resume-download, a {
+    color: white;
+    margin: auto;
 }
 
 @media only screen and (max-width: 576px) {
