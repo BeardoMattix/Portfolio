@@ -109,7 +109,6 @@ a {
 }
 #projects {
   background-color: #246878;
-  /* background-color: #216e67; */
   color: #263340;
   padding-top: 30px;
 }
@@ -191,8 +190,7 @@ a {
     padding-top: -10px;
 }
 #contact-style {
-    padding-top: 0;
-    margin-top: 0;
+    color: white;
 }
 #resume-card {
     font-family: "Lato", sans-serif;
