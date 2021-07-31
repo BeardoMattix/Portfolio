@@ -49,6 +49,12 @@ a {
 .fab {
   color: white;
 }
+.user-email {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 #questions-submit {
     float: right;
     margin: 10px;
@@ -146,6 +152,7 @@ a {
   color: #A3D3FB;
   text-shadow: 1px 0px 1px white;
   padding: 15px;
+  margin-top: 3%;
   border: 2px double #57b1fa;
   border-radius: 10px;
   background-color: #193347;
@@ -212,6 +219,7 @@ a {
     margin: auto;
 }
 
+
 @media only screen and (max-width: 576px) {
   .navbar {
     width: 100%;
@@ -225,6 +233,10 @@ a {
   }
   body {
     margin-top: 30px;
+  }
+  #email {
+    font-size: 25px;
+    overflow-wrap: break-word;
   }
 }
 @media only screen and (max-width: 768px) {
