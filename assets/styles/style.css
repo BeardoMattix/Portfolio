@@ -232,7 +232,7 @@ a {
   }
   #name {
     max-width: 90%;
-    font-size: 2.5rem;
+    font-size: 10px;
   }
   .fas {
     display: none;
