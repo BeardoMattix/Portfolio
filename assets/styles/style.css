@@ -244,6 +244,9 @@ a {
     font-size: 25px;
     overflow-wrap: break-word;
   }
+  .hero-body {
+    margin-top: 15%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .navbar {
