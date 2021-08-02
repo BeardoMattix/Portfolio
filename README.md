@@ -25,18 +25,15 @@ For this updated version of my portfolio I wanted a clean design that highlighte
 
 ## Functionality
 
-![landing-demo](https://user-images.githubusercontent.com/82903201/126918471-c28a7faf-e0cb-42d7-85e3-731ce9bdb95e.gif)
+![Portfolio-demo](https://user-images.githubusercontent.com/82903201/127873720-85edb49e-e372-4519-ac90-f53628414727.gif)
 
 
-#### The demo shows the main functions of Skillet and Shaker recipe finder:
-* The landing page introduces the site, has buttons to navigate to the Food and Drink search pages, and includes a "Featured Recipes" section for users who prefer not to spend time searching.
-* Users click on either "Search Food" or "Drink Search" in the navbar which leads them to a page for finding food recipes or drink recipes by certain search parameters. 
-* On the "Search Food" page, the user is presented with a search form with the parameters of ingredient, diet, and cooktime.  
-* The user must enter an ingredient, but can select a preferred diet type and cooktime from dropdown menus.
-* Recipes are shown in a modal with multiple cards displaying a picture of the dish, the name of the dish, a link to the recipe, and a "save recipe" button. 
-* If the user hits the save recipe button, the recipe card is shown at the bottom of the page along with any other previously saved recipes. These saved items are stored in local storage.
-* The favorites sections have a "Clear Favorites" button for users to reset their favorites.
-* The "Search Drinks" page functions in the same fashion as the "Search Food" page, except that the search parameters are  ingredient, cocktail name, and a button to show a random cocktail recipe.
+#### The demo shows the main functions of my Portfolio:
+* Users can navigate the site using the Explore dropdown menu.
+* Projects are displayed as animated gifs, and include links to the deployed sites and the GitHub repositories. 
+* When a user click on the resume, a copy is downloaded onto their device.
+* GitHub and LinkedIn profiles are updated.
+* The Contact Me section includes links to GitHub, LinkedIn, and Twitter, as well as my email address and a form for asking questions. 
 
 ## File Architecture
 ```
