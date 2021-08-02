@@ -57,7 +57,7 @@ For this updated version of my portfolio I wanted a clean design that highlighte
 The main challenge I faced with this project was deigning a mobile-first site. I wanted my portfilio to look and function well on mobile devices, and spent a lot of time making sure the site functioned on smaller screens. 
 
 ## Usage
-* Employers cab quickly see my projects and resume.  
+* Employers can quickly see my projects and resume.  
 * Employers can get a sense of my visual design skills. 
 * Employers can use the "Contact Me" section to see my social media accounts, ask questions, and email me. 
 
