@@ -4,7 +4,7 @@
 
 ## Link to Deployed Site
 
-[Skillet and Shaker](https://likearollinson.github.io/recipe-finder/)
+[Portfolio](https://beardomattix.github.io/Portfolio/)
 
 ## Table of Contents
   * [Motivation and Technologies](#motivation)
@@ -15,23 +15,19 @@
 
 ## Motivation
 
-As a team, we aimed to create a web application for users looking for cocktail or food recipes in a simple and easy to use fashion. We wanted the users to be able to search with simple parameters to find the recipe(s) they are looking for.  An added feature is users can save search results with a simgle click, and revisit them whenever they want. The design concept is simple, easy to navigate, and consistent across all pages.
+For this updated version of my portfolio I wanted a clean design that highlighted my progress as a new developer. I used the Bulma CSS framework in conjunction with vanilla CSS to create the design of the site, and added some JS functionality to the menu that appears when the site is viewed on mobile devices. I also added a link to my resume that employers can click to download a copy of my resume. 
 
 #### Technologies
 * HTML
 * CSS 
 * JavaScript
 * Bulma
-* Edamam Recipe API
-* CocktailDB Recipe API
 
 ## Functionality
 
 ![landing-demo](https://user-images.githubusercontent.com/82903201/126918471-c28a7faf-e0cb-42d7-85e3-731ce9bdb95e.gif)
 
-![food-search-demo](https://user-images.githubusercontent.com/82903201/126918472-297fd7f9-78dd-4054-bf97-826d5cadbcc3.gif)
 
-![drink-search-demo](https://user-images.githubusercontent.com/82903201/126918473-6e669972-6cad-45ee-96f9-62901c6fe355.gif)
 #### The demo shows the main functions of Skillet and Shaker recipe finder:
 * The landing page introduces the site, has buttons to navigate to the Food and Drink search pages, and includes a "Featured Recipes" section for users who prefer not to spend time searching.
 * Users click on either "Search Food" or "Drink Search" in the navbar which leads them to a page for finding food recipes or drink recipes by certain search parameters. 
@@ -61,20 +57,13 @@ As a team, we aimed to create a web application for users looking for cocktail o
 └── index.html
 ```
 ## Challenges
-The major challenge we faced with the development of this application was dealing with github merge conflicts and making sure we weren't all working on the same sections at the same time. We also encountered an odd error which was a product of copying and pasting code shared via slack. 
+The main challenge I faced with this project was deigning a mobile-first site. I wanted my portfilio to look and function well on mobile devices, and spent a lot of time making sure the site functioned on smaller screens. 
 
 ## Usage
-* Find food and drink recipes based on certain parameters. 
-* Use this to help understand how to make API calls.
-* Save search results and return to them as needed.
-* Use to see how to incorporate Bulma into a responsive web application.
-* Learn how to develop a web application in a group and use github in a group setting. 
+* Employers cab quickly see my projects and resume.  
+* Employers can get a sense of my visual design skills. 
+* Employers can use the "Contact Me" section to see my social media accounts, ask questions, and email me. 
 
 ## Future Development
-* Refine the favorites section and create a digital recipe book that users can download.
-* Further develop the API calls and display full recipes on the page.
-* Create a stylized recipe book using Bulma and CSS.
-* Unify the JS code across pages for easier use.
-* Use "On load" API calls to reduce the amount of stale data on the page.
-* Create a specific page for favorite recipes.
-* Optimize dynamic creation, searches, and functions 
+* Add functionality to send an email whenever a user asks a question in the Contact Me section. 
+* Include animations to make the projects section look better. 
