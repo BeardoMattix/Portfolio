@@ -44,10 +44,28 @@ main {
 }
 a {
   color: #95c1e6;
-  font-weight: 400;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+  font-size: 30px;
+}
+.repo-link {
+  color: #95c1e6;
+  text-shadow: 1px 0px 1px white;
+  font-size: 30px;
+}
+
+.resume-link {
+  color: #95c1e6;
+  text-shadow: 1px 0px 1px white;
+}
+.contact-link {
+  color: #95c1e6;
+  text-shadow: 1px 0px 1px white;
 }
 .fab {
-  color: white;
+  color: #95c1e6;
 }
 .user-email {
   width: 100%;
@@ -56,17 +74,17 @@ a {
   border-radius: 5px;
 }
 #questions-submit {
-    float: right;
-    margin: 10px;
-    padding: 10px;
-    background-color: #3d7bad;
-    border: 1px solid white;
-    border-radius: 10px;
-    color: white;
-    font-size: 1.5rem;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  background-color: #3d7bad;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
 }
 #questions-submit:hover {
-  background-color: #50677A;
+  background-color: #50677a;
 }
 #burger {
   color: white;
@@ -125,7 +143,7 @@ a {
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 3rem;
-  color: #A3D3FB;
+  color: #a3d3fb;
   text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.562);
   padding: 15px;
   border: 2px double #57b1fa;
@@ -137,7 +155,7 @@ a {
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 3rem;
-  color: #A3D3FB;
+  color: #a3d3fb;
   text-shadow: 1px 0px 0px white;
   padding: 15px;
   border: 2px double #57b1fa;
@@ -149,7 +167,7 @@ a {
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 3rem;
-  color: #A3D3FB;
+  color: #a3d3fb;
   text-shadow: 1px 0px 1px white;
   padding: 15px;
   margin-top: 3%;
@@ -192,31 +210,31 @@ a {
   box-shadow: 3px 3px 4px #393c40;
 }
 #contact-me-card {
-    font-family: "Lato", sans-serif;
-    font-size: 2.5rem;
-    background-color: #193347;
-    border: 2px double #57b1fa;
-    border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  background-color: #193347;
+  border: 2px double #57b1fa;
+  border-radius: 10px;
 }
 #contact-style {
-    color: white;
+  color: white;
 }
 #resume-card {
-    font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
-    background-color: #193347;
-    border: 2px double #57b1fa;
-    border-radius: 10px;
-    padding: 10px;
-    
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  background-color: #193347;
+  border: 2px double #57b1fa;
+  border-radius: 10px;
+  padding: 10px;
 }
 #resume-image {
-    border: 2px double #57b1fa;
-    border-radius: 10px;
+  border: 2px double #57b1fa;
+  border-radius: 10px;
 }
-#resume-download, a {
-    color: white;
-    margin: auto;
+#resume-download,
+a {
+  color: white;
+  margin: auto;
 }
 #bulma-logo {
   margin-bottom: -5px;
@@ -224,7 +242,6 @@ a {
   background-color: white;
   border-radius: 5px;
 }
-
 
 @media only screen and (max-width: 576px) {
   .navbar {
