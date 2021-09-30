@@ -1,6 +1,9 @@
 main {
   margin-top: 0;
 }
+figure {
+  padding: 0;
+}
 .footer {
   background-color: #193347;
   color: white;
@@ -48,14 +51,17 @@ a {
 }
 a:hover {
   color: white;
-  font-size: 35px;
+  font-size: 45px;
 }
 .repo-link {
   color: #95c1e6;
   text-shadow: 1px 0px 1px white;
-  font-size: 30px;
+  font-size: 40px;
+  padding: 0;
 }
-
+.card-content {
+  margin-top: -70px;
+}
 .resume-link {
   color: #95c1e6;
   text-shadow: 1px 0px 1px white;
@@ -77,6 +83,7 @@ a:hover {
 .demo-image {
   border: 2px double #95c1e6;
   border-radius: 5px;
+  margin-bottom: -20px;
 }
 #questions-submit {
   float: right;
@@ -204,7 +211,7 @@ a:hover {
   padding: 5px;
   box-shadow: 3px 3px 4px #393c40;
 }
-#weather-card {
+#code-social-card {
   background-color: #193347;
   margin: auto;
   border-radius: 10px;
