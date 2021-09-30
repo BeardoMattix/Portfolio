@@ -48,7 +48,7 @@ a {
 }
 a:hover {
   color: white;
-  font-size: 30px;
+  font-size: 35px;
 }
 .repo-link {
   color: #95c1e6;
@@ -63,6 +63,7 @@ a:hover {
 .contact-link {
   color: #95c1e6;
   text-shadow: 1px 0px 1px white;
+  font-size: 30px;
 }
 .fab {
   color: #95c1e6;
@@ -71,6 +72,10 @@ a:hover {
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
+  border-radius: 5px;
+}
+.demo-image {
+  border: 2px double #95c1e6;
   border-radius: 5px;
 }
 #questions-submit {
