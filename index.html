@@ -196,10 +196,14 @@
                               <a class="contact-link" href="https://twitter.com/MattixnotMatrix" target="_blank"><br><i class="fab fa-twitter"></i> Twitter</a>
                               <p id="email">Christopher.mattix@gmail.com</p>
                               <hr class="solid"> 
-                              <p class="title is-3 has-text-white has-text-centered">Questions:</p>
-                              <input type="text" class="user-email" placeholder="Your email">
-                            <textarea class="textarea" placeholder="Your questions..."></textarea>
-                            <button class="button" type="submit" id="questions-submit">Submit</button>
+                              
+                            <form action="https://formsubmit.co/christopher.mattix@gmail.com" method="POST">
+                              <p class="title is-4 has-text-white has-text-centered email-text">Email:</p>
+                              <input type="email" name="email" class="user-email" placeholder="Email Address" required>
+                              <p class="title is-4 has-text-white has-text-centered">Questions:</p>
+                              <input type="text" name="message" class="textarea" placeholder="Write your questions here" required>
+                              <button class="button" type="submit" id="questions-submit">Submit</button>
+                            </form>
                             </div>
                           </div>
                         </div>
